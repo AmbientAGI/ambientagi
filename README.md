@@ -539,14 +539,14 @@ The chat.id (e.g., -100123456789) is what you need for the private group/channel
 ### 5. Use the Chat ID in Your Code
 Here’s a minimal Python example using requests:
 ```python
-
+import os 
 from ambientagi.services.agent_service import AmbientAgentService
 
 # Step 1: Instantiate the main service
-agent_service = AmbientAgentService()
+agent_service = AmbientAgentService(api_key=os.getenv("OPENAI_API_KEY"))
 
 # Step 2: Assume we have an existing AmbientAgent with this ID
-agent_id = "your-telegram-enabled-agent-id"
+agent_id = "agent-id"
 
 # Step 3: Create the Telegram agent (provider)
 bot_token = ""  # Example token7838344151:AAFf7ds7XmiKn2taxRAg
@@ -568,12 +568,15 @@ print(response)
 - ✅ Twitter/X integration
 - ✅ Email (via SMTP)
 - ✅ Headless browsing
-- ✅ Custom HTTP tools, Firecrawl, function-calling
-
+- ✅ Custom HTTP tools, Browser Use, function-calling, tool-calling
+- ❌ MCP (coming soon)
+- ❌ Voice Agent (coming soon)
+- ❌ 3D Picture (coming soon)
+- ❌ Complete task for you on schedule, even if you are offline (coming soon)
 ---
 
 
-## 🖼️ 3D/NFT Media (Optional)
+## 🖼️ 3D/NFT Media (coming soon)
 
 Agents can be associated with video/3D/NFT media (e.g. `.mp4`, `.glb`, `.gif`), linked to token contracts and stored on IPFS.
 
@@ -596,8 +599,4 @@ Or something weird and wonderful.
 
 ---
 
-
-## 📜 License
 Broswer Agent was inspired from Browser Use and Browser WebUI
-
-AmbientAGI is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
