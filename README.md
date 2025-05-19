@@ -1,4 +1,33 @@
 
+
+<p align="center">
+  <a href="https://github.com/AmbientAGI/ambientagi">
+    <img alt="Custom Badge" src="https://img.shields.io/badge/AmbientAGI-Powered-brightgreen" />
+  </a>
+  <a href="https://pypi.org/project/ambientagi/">
+    <img alt="PyPI Version" src="https://img.shields.io/pypi/v/ambientagi" />
+    <img alt="Downloads" src="https://img.shields.io/pypi/dm/ambientagi" />
+    <img alt="Python Versions" src="https://img.shields.io/pypi/pyversions/ambientagi" />
+  </a>
+  <a href="https://docs.ambientagi.ai">
+<a href="https://docs.ambientagi.ai">
+  <img alt="Docs" src="https://img.shields.io/badge/docs-available-blue?logo=readthedocs" />
+</a>
+  <a href="https://github.com/AmbientAGI/ambientagi/graphs/contributors">
+    <img alt="Contributors" src="https://img.shields.io/github/contributors/AmbientAGI/ambientagi" />
+  </a>
+  <a href="https://github.com/AmbientAGI/ambientagi/issues">
+    <img alt="Open Issues" src="https://img.shields.io/github/issues/AmbientAGI/ambientagi" />
+    <img alt="Closed Issues" src="https://img.shields.io/github/issues-closed/AmbientAGI/ambientagi" />
+  </a>
+  <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen" />
+  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/AmbientAGI/ambientagi" />
+  <img alt="Repo Size" src="https://img.shields.io/github/repo-size/AmbientAGI/ambientagi" />
+  <a href="https://twitter.com/AmbientAgi_ai">
+    <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/AmbientAgi_ai?style=social" />
+  </a>
+</p>
+
 # 🌟 AmbientAGI: Build Token-Rewarded AI Agents
 
 AmbientAGI merges **AI orchestration** with **crypto token rewards**, enabling users to:
