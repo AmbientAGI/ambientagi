@@ -122,7 +122,7 @@ service = AmbientAgentService(api_key=API_KEY)
 # 2. Create a database-tracked agent
 create_resp = service.create_agent(
     agent_name="DeFiScanner",
-    wallet_address="0x456DEF",
+    private_key="*******",
     description="A DeFi agent that monitors yield opportunities.",
 )
 print("Created agent:", create_resp)
@@ -174,7 +174,7 @@ service = AmbientAgentService(api_key=os.getenv("OPENAI_API_KEY"))
 # 2) Create a new generic agent (name → agent_name)
 create_resp = service.create_agent(
     agent_name="TwitterAssistant",
-    wallet_address="0xABCDEF1234",
+    private_key="*******",
     description="Agent that posts and replies on Twitter."
 )
 print("Create Agent Response:", create_resp)
@@ -251,7 +251,7 @@ async def main():
     # 2) Create an agent (correct param: agent_name instead of prompt)
     create_resp = service.create_agent(
         agent_name="BrowserAssistant",
-        wallet_address="0x123456789ABCDEF",
+        private_key="******",
         description="An agent that uses a browser to gather information."
     )
     print("✅ Create Agent Response:", create_resp)
@@ -349,7 +349,7 @@ def main():
     # 3. Create the browser-capable agent
     resp = service.create_agent(
         agent_name="BrowserAssistant",
-        wallet_address="0x123456789ABCDEF",
+        private_key="*******",
         description="Automates browser-based research."
     )
     agent_id = resp["agent_id"]
@@ -396,7 +396,7 @@ service = AmbientAgentService(api_key=os.getenv("OPENAI_API_KEY"))
 # 2. Create an agent to associate with the token
 response = service.create_agent(
     agent_name="TokenMinter",
-    wallet_address="0xDEADBEEF1234567890",
+    private_key="********",
     description="Creates Ethereum tokens with metadata."
 )
 agent_id = response["agent_id"]
