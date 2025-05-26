@@ -7,7 +7,7 @@ service = AmbientAgentService(api_key=os.getenv("OPENAI_API_KEY"))
 # 2️⃣ Create and register a new crawler agent
 agent_info = service.create_agent(
     agent_name="CrawlerAgent",
-    wallet_address="0xC0FFEE123",
+    private_key="********",
     description="Autonomous agent that crawls websites and summarizes key insights.",
 )
 agent_id = agent_info["agent_id"]

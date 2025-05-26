@@ -26,7 +26,7 @@ def main():
     # 2. Create a browser agent
     resp = service.create_agent(
         agent_name="BrowserAssistant",
-        wallet_address="0x123456789ABCDEF",
+        private_key="********",
         description="An agent that uses a browser to find trending AI news.",
     )
     agent_id = resp["agent_id"]

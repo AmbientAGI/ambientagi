@@ -13,7 +13,7 @@ async def main():
 
     agent = service.create_agent(
         agent_name="FirefoxAgent",
-        wallet_address="0xFIREFOX",
+         private_key="********",
         description="Search 'AmbientAGI GitHub' and return the repo link.",
     )
 

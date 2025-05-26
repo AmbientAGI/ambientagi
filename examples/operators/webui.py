@@ -8,7 +8,7 @@ service = AmbientAgentService(api_key=os.getenv("OPENAI_API_KEY"))
 # 2. Create a new agent with a name and wallet
 resp = service.create_agent(
     agent_name="Broswy",
-    wallet_address="0x123",
+    private_key="********",
     description="A browser agent for crypto enthusiasts to track market news and trends.",
 )
 agent_id = resp["agent_id"]

@@ -56,7 +56,7 @@ def main():
     # Create agent
     agent = service.create_agent(
         agent_name="MarketSentinel",
-        wallet_address="0xMARKET1H",
+        private_key="********",
         description="Hourly crypto market summary bot.",
     )
     agent_id = agent["agent_id"]

@@ -13,7 +13,7 @@ async def main():
 
     agent = service.create_agent(
         agent_name="VisibleAgent",
-        wallet_address="0xVISIBLE",
+        private_key="********",
         description="Open Google and report the title",
     )
 

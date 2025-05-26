@@ -12,7 +12,7 @@ async def main():
     # 2. Create an agent record
     agent = service.create_agent(
         agent_name="BrowserScraper",
-        wallet_address="0xFAKE123",
+        private_key="********",
         description="A browser agent that scrapes and summarizes pages.",
     )
     agent_id = agent["agent_id"]

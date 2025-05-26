@@ -25,7 +25,7 @@ async def main():
     # 4. Create the agent in your database
     agent = service.create_agent(
         agent_name="WeatherAgent",
-        wallet_address="0xWEATH3R123",
+        private_key="********",
         description="Answers weather questions using a custom tool.",
     )
     agent_id = agent["agent_id"]

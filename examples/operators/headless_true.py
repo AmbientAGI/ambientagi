@@ -13,7 +13,7 @@ async def main():
 
     agent = service.create_agent(
         agent_name="HeadlessBot",
-        wallet_address="0xBOT",
+        private_key="********",
         description="Get latest news headline from CNN",
     )
 

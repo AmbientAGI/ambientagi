@@ -11,7 +11,7 @@ async def main():
     service = AmbientAgentService(api_key=os.getenv("OPENAI_API_KEY"))
     create_resp = service.create_agent(
         agent_name="language_triage_agent",
-        wallet_address="0x456DEF",
+        private_key="********",
         description="Language Triage Agent",
     )
     agent_id = create_resp["agent_id"]
